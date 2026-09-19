@@ -1,28 +1,39 @@
 # Internship Seeker
 
-A streamlined tool built to simplify, track, and automate the process of searching and applying for software engineering internships.
+A website for browsing internship offers, built with nothing but HTML, CSS and
+Bootstrap.
 
+This was my front-end fundamentals project. No framework, no build step, no back end —
+the offers are written straight into the markup. It's here because it's where I
+learned responsive layout and semantic markup properly.
 
-## Overview
+## The pages
 
-Finding internships often means managing dozens of applications across different platforms. **Internship Seeker** centralizes the job hunt—helping filter relevant opportunities, organize application statuses, and keep track of deadlines without the manual spreadsheet hassle.
+- **Home** — landing page with the partner companies and a mobile off-canvas menu
+- **Offres** — the offer listings
+- **Table** — the same offers laid out as a comparison table
+- **Sign in** — the login form
 
+Along the way I got the accessibility basics right: landmark elements, ARIA labels on
+the navigation, alt text everywhere, and meta tags on each page.
 
-## Key Features
+**Built with** HTML5, CSS3 and Bootstrap 5.
 
-* **Opportunity Aggregation:** Filters open software engineering and tech internships from multiple sources.
+## Running it
 
-
-## Tech Stack
-
-* **Language:** HTML / CSS
-
-
-## Getting Started
-
-### Quick Setup
+Nothing to install — open `Home.html` in a browser, or serve the folder:
 
 ```bash
-# Clone the repository
-git clone https://github.com/HammamiSalmen/Internship-Seeker.git
+git clone https://github.com/salmenhammami/Internship-Seeker.git
 cd Internship-Seeker
+python -m http.server 8000
+```
+
+## What I'd add
+
+Move the offers out of the HTML into a JSON file, render them with JavaScript, and add
+filtering by location and duration. Then put it on GitHub Pages.
+
+---
+
+**Salmen Hammami** · [GitHub](https://github.com/salmenhammami) · [LinkedIn](https://www.linkedin.com/in/salmenhammami/)
